@@ -164,14 +164,6 @@ The model is tested on 200 unlabeled images in the `data/test/` directory. Predi
 - **Pillow**: ≥8.2.0 (Image processing)
 - **scikit-learn**: ≥1.0.0 (Machine learning utilities)
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/new-feature`)
-5. Create a Pull Request
-
 ## 🙏 Acknowledgments
 
 - [OAI 2025 Contest](https://oai.hutech.edu.vn)
