@@ -25,27 +25,6 @@ This project implements an image classification system to identify different spe
 - **Early Stopping**: Prevents overfitting with patience-based callbacks
 - **Learning Rate Scheduling**: Adaptive learning rate reduction
 
-## Project Structure
-
-```
-Mushroom-Classifier/
-├── data/
-│   ├── train/                    # Training dataset
-│   │   ├── bào ngư xám + trắng/  # Oyster mushrooms
-│   │   ├── linh chi trắng/       # White reishi mushrooms
-│   │   ├── nấm mỡ/               # Shiitake mushrooms
-│   │   └── Đùi gà Baby (cắt ngắn)/ # Baby chicken leg mushrooms
-│   └── test/                     # Test images (001.jpg - 200.jpg)
-├── libs/
-│   ├── lib1.py                   # Custom utility functions
-│   └── lib2.py                   # Additional helper functions
-├── output/
-│   ├── final_model.keras         # Trained model
-│   └── result.csv                # Prediction results
-├── main.py                       # Main training and prediction script
-├── requirements.txt              # Python dependencies
-└── README.md                     # Project documentation
-```
 
 ### Parameters
 
@@ -135,7 +114,6 @@ The model is tested on 200 unlabeled images in the `data/test/` directory. Predi
 
 - [OAI 2025 Contest](https://oai.hutech.edu.vn)
 - Dataset contributors for providing mushroom images
-- TensorFlow team for the excellent deep learning framework
 - HUTECH University for organizing the OAI contest
 
 ---
